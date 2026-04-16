@@ -10,6 +10,8 @@ export default function Home() {
   const [currentView, setCurrentView] = useState<"login" | "ingredients" | "recipes" | "saved">("login")
   const [user, setUser] = useState<{ name: string; email: string } | null>(null)
 
+  const [searchQuery, setSearchQuery] = useState<string | null>(null)
+  const [selectedIngredients, setSelectedIngredients] = useState<string[]>([])
   useEffect(() => {
     // Check if user is already logged in
     const storedUser = localStorage.getItem("recipeGenieUser")
@@ -31,6 +33,22 @@ export default function Home() {
     setUser(null)
     setCurrentView("login")
   }
+  const handleFindRecipes = (query?: string) => {
+    if (query) {
+      setSearchQuery(query) // recipe name এসেছে
+      setSelectedIngredients([])
+    } else {
+      const stored = localStorage.getItem("recipeGenieIngredients")
+      if (stored) {
+        setSelectedIngredients(JSON.parse(stored)) // ingredient mode
+      }
+      setSearchQuery(null)
+    }
+
+    setCurrentView("recipes")
+  }
+
+
 
   return (
     <div className="min-h-screen bg-background">
@@ -40,11 +58,16 @@ export default function Home() {
           user={user}
           onLogout={handleLogout}
           onViewSaved={() => setCurrentView("saved")}
-          onFindRecipes={() => setCurrentView("recipes")}
+          onFindRecipes={handleFindRecipes}
         />
       )}
       {currentView === "recipes" && (
-        <RecipeMatch onBack={() => setCurrentView("ingredients")} onViewSaved={() => setCurrentView("saved")} />
+        <RecipeMatch
+          query={searchQuery}
+          ingredients={selectedIngredients}
+          onBack={() => setCurrentView("ingredients")}
+          onViewSaved={() => setCurrentView("saved")}
+        />
       )}
       {currentView === "saved" && <SavedRecipes onBack={() => setCurrentView("ingredients")} />}
     </div>

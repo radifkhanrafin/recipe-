@@ -2699,99 +2699,699 @@ const recipes = [
             "Add cooked rice and soy sauce, toss well.",
             "Season with salt and pepper, garnish with green onions, and serve hot."
         ]
+    },
+    {
+        id: "101",
+        name: "Dim Bhaji (Detailed)",
+        ingredients: [
+            "eggs",
+            "onion",
+            "green chili",
+            "oil",
+            "salt",
+            "turmeric"
+        ],
+        instructions: [
+            "Crack eggs into a bowl, add salt and a pinch of turmeric, then beat well until smooth.",
+            "Heat oil in a frying pan over medium heat.",
+            "Add chopped onions and green chilies, sauté for 2-3 minutes until soft and slightly golden.",
+            "Pour the beaten eggs into the pan.",
+            "Stir continuously using a spatula to scramble the eggs evenly.",
+            "Cook until eggs are fully set but still soft.",
+            "Serve hot with rice or bread."
+        ]
+    },
+    {
+        id: "102",
+        name: "Alu Bhorta (Traditional Style)",
+        ingredients: [
+            "boiled potatoes",
+            "onion",
+            "green chili",
+            "mustard oil",
+            "salt",
+            "coriander leaves"
+        ],
+        instructions: [
+            "Boil potatoes until soft, then peel the skin.",
+            "Mash the potatoes in a bowl until smooth.",
+            "Add finely chopped onion, green chili, and coriander leaves.",
+            "Add salt to taste.",
+            "Pour 1-2 teaspoons of mustard oil for authentic flavor.",
+            "Mix everything thoroughly using your hand for best texture.",
+            "Serve with hot rice and lentils."
+        ]
+    },
+    {
+        id: "103",
+        name: "Simple Masoor Dal",
+        ingredients: [
+            "red lentils",
+            "water",
+            "onion",
+            "garlic",
+            "turmeric",
+            "salt",
+            "oil"
+        ],
+        instructions: [
+            "Wash lentils thoroughly until water runs clear.",
+            "Boil lentils with turmeric and salt for 10-12 minutes until soft.",
+            "In a separate pan, heat oil and sauté chopped onion and garlic until golden brown.",
+            "Pour the fried mixture (tadka) into the boiled dal.",
+            "Mix well and simmer for 2-3 minutes.",
+            "Serve hot with rice."
+        ]
+    },
+    {
+        id: "104",
+        name: "Begun Bhaja (Crispy)",
+        ingredients: [
+            "eggplant",
+            "salt",
+            "turmeric",
+            "chili powder",
+            "oil"
+        ],
+        instructions: [
+            "Slice eggplant into medium-thick round pieces.",
+            "Rub salt, turmeric, and chili powder on both sides.",
+            "Heat oil in a pan on medium heat.",
+            "Fry eggplant slices until golden brown on both sides.",
+            "Ensure edges become slightly crispy.",
+            "Remove and place on tissue to absorb excess oil.",
+            "Serve with rice and dal."
+        ]
+    },
+    {
+        id: "105",
+        name: "Dim Curry (Bachelor Version)",
+        ingredients: [
+            "eggs",
+            "onion",
+            "tomato",
+            "garlic",
+            "turmeric",
+            "chili powder",
+            "oil",
+            "salt"
+        ],
+        instructions: [
+            "Boil eggs for 10 minutes, peel and lightly fry them in oil.",
+            "In the same pan, sauté chopped onions and garlic until golden.",
+            "Add chopped tomatoes and cook until soft.",
+            "Add turmeric, chili powder, and salt, mix well.",
+            "Add water to make gravy.",
+            "Add fried eggs and simmer for 8-10 minutes.",
+            "Serve with rice."
+        ]
+    },
+    {
+        id: "106",
+        name: "Chicken Bhuna Easy",
+        ingredients: [
+            "chicken",
+            "onion",
+            "ginger garlic paste",
+            "turmeric",
+            "chili powder",
+            "oil",
+            "salt"
+        ],
+        instructions: [
+            "Heat oil and fry sliced onions until golden brown.",
+            "Add ginger-garlic paste and cook for 1 minute.",
+            "Add chicken pieces and cook until slightly browned.",
+            "Add turmeric, chili powder, and salt.",
+            "Cook on medium heat, stirring occasionally.",
+            "Add a little water and cook until chicken is tender and oil separates.",
+            "Serve hot with rice."
+        ]
+    },
+    {
+        id: "107",
+        name: "Khichuri (Simple)",
+        ingredients: [
+            "rice",
+            "lentils",
+            "turmeric",
+            "salt",
+            "oil"
+        ],
+        instructions: [
+            "Wash rice and lentils together.",
+            "Boil with turmeric and salt.",
+            "Stir occasionally to avoid sticking.",
+            "Cook until soft and slightly mushy.",
+            "Drizzle a little oil on top.",
+            "Serve hot with egg fry or pickle."
+        ]
+    },
+    {
+        id: "108",
+        name: "Alu Dim Curry",
+        ingredients: [
+            "potato",
+            "egg",
+            "onion",
+            "garlic",
+            "spices",
+            "oil",
+            "salt"
+        ],
+        instructions: [
+            "Boil eggs and fry lightly.",
+            "Cut potatoes into cubes and fry slightly.",
+            "Cook onion and garlic until golden.",
+            "Add spices and mix well.",
+            "Add potatoes and water, cook until soft.",
+            "Add eggs and simmer for 5-7 minutes.",
+            "Serve hot."
+        ]
+    },
+    {
+        id: "109",
+        name: "Chaler Ruti",
+        ingredients: [
+            "rice flour",
+            "water",
+            "salt"
+        ],
+        instructions: [
+            "Boil water with salt.",
+            "Add rice flour and mix into dough.",
+            "Knead while warm until smooth.",
+            "Make small balls and flatten into thin discs.",
+            "Cook on a hot pan without oil.",
+            "Serve with curry or bhorta."
+        ]
+    },
+    {
+        id: "110",
+        name: "Chicken Fried Rice (BD Style)",
+        ingredients: [
+            "rice",
+            "chicken",
+            "egg",
+            "soy sauce",
+            "carrot",
+            "oil",
+            "salt"
+        ],
+        instructions: [
+            "Cook rice and let it cool completely.",
+            "Heat oil and cook chicken pieces until done.",
+            "Add egg and scramble.",
+            "Add chopped vegetables and sauté.",
+            "Add rice and soy sauce.",
+            "Mix well and fry for 5 minutes.",
+            "Serve hot."
+        ]
+    },
+    // 🔥 Continue up to 130
+    {
+        id: "111",
+        name: "Dal Khichuri with Egg Fry",
+        ingredients: [
+            "rice",
+            "lentils",
+            "egg",
+            "turmeric",
+            "salt",
+            "oil"
+        ],
+        instructions: [
+            "Cook rice and lentils together with turmeric and salt.",
+            "In a separate pan, fry egg with a pinch of salt.",
+            "Serve khichuri hot with egg fry on top."
+        ]
+    },
+    {
+        id: "112",
+        name: "Simple Fish Curry",
+        ingredients: [
+            "fish",
+            "onion",
+            "turmeric",
+            "chili powder",
+            "oil",
+            "salt"
+        ],
+        instructions: [
+            "Marinate fish with salt and turmeric.",
+            "Fry fish lightly and set aside.",
+            "Cook onion and spices.",
+            "Add water to make gravy.",
+            "Add fish and simmer 10 minutes."
+        ]
+    },
+    {
+        id: "113",
+        name: "Panta Bhat",
+        ingredients: [
+            "rice",
+            "water",
+            "salt"
+        ],
+        instructions: [
+            "Soak cooked rice in water overnight.",
+            "Add salt before eating.",
+            "Serve with chili or fried items."
+        ]
+    },
+    {
+        id: "114",
+        name: "Dim Toast Improved",
+        ingredients: [
+            "bread",
+            "egg",
+            "milk",
+            "salt",
+            "oil"
+        ],
+        instructions: [
+            "Beat egg with a little milk and salt.",
+            "Dip bread into mixture.",
+            "Fry on both sides until golden.",
+            "Serve hot."
+        ]
+    },
+    {
+        id: "115",
+        name: "Chicken Soup Simple",
+        ingredients: [
+            "chicken",
+            "water",
+            "garlic",
+            "salt",
+            "pepper"
+        ],
+        instructions: [
+            "Boil chicken with garlic and salt.",
+            "Simmer 20 minutes.",
+            "Add pepper before serving.",
+            "Serve warm."
+        ]
+    },
+    {
+        id: "116",
+        name: "Alu Bhaji Crispy",
+        ingredients: [
+            "potato",
+            "oil",
+            "salt",
+            "turmeric"
+        ],
+        instructions: [
+            "Slice potatoes thinly.",
+            "Fry in hot oil until crispy.",
+            "Add salt and turmeric.",
+            "Serve immediately."
+        ]
+    },
+    {
+        id: "117",
+        name: "Chana Masala Easy",
+        ingredients: [
+            "chickpeas",
+            "onion",
+            "tomato",
+            "spices",
+            "oil"
+        ],
+        instructions: [
+            "Boil chickpeas until soft.",
+            "Cook onion and tomato with spices.",
+            "Add chickpeas and cook 10 minutes.",
+            "Serve hot."
+        ]
+    },
+    {
+        id: "118",
+        name: "Egg Sandwich BD Style",
+        ingredients: [
+            "bread",
+            "egg",
+            "onion",
+            "mayonnaise",
+            "salt"
+        ],
+        instructions: [
+            "Boil eggs and mash.",
+            "Mix with onion and mayonnaise.",
+            "Spread on bread.",
+            "Serve."
+        ]
+    },
+    {
+        id: "119",
+        name: "Simple Chicken Khichuri",
+        ingredients: [
+            "rice",
+            "lentils",
+            "chicken",
+            "turmeric",
+            "salt"
+        ],
+        instructions: [
+            "Cook chicken with spices.",
+            "Add rice and lentils.",
+            "Cook together until soft.",
+            "Serve hot."
+        ]
+    },
+    {
+        id: "120",
+        name: "Milk Tea Perfect",
+        ingredients: [
+            "tea",
+            "milk",
+            "sugar",
+            "water"
+        ],
+        instructions: [
+            "Boil water with tea leaves.",
+            "Add milk and sugar.",
+            "Boil 2-3 minutes.",
+            "Strain and serve."
+        ]
+    },
+    {
+        id: "121",
+        name: "Vegetable Bhaji Mix",
+        ingredients: [
+            "mixed vegetables",
+            "oil",
+            "salt",
+            "turmeric"
+        ],
+        instructions: [
+            "Cut vegetables evenly.",
+            "Heat oil and add vegetables.",
+            "Cook with salt and turmeric.",
+            "Stir until soft."
+        ]
+    },
+    {
+        id: "122",
+        name: "Rice with Fried Fish",
+        ingredients: [
+            "rice",
+            "fish",
+            "oil",
+            "salt",
+            "turmeric"
+        ],
+        instructions: [
+            "Cook rice.",
+            "Marinate fish and fry.",
+            "Serve together."
+        ]
+    },
+    {
+        id: "123",
+        name: "Dim Bhurji Spicy",
+        ingredients: [
+            "egg",
+            "onion",
+            "chili",
+            "oil",
+            "salt"
+        ],
+        instructions: [
+            "Fry onion and chili.",
+            "Add egg and scramble.",
+            "Cook until dry."
+        ]
+    },
+    {
+        id: "124",
+        name: "Chicken Roll",
+        ingredients: [
+            "paratha",
+            "chicken",
+            "onion",
+            "sauce"
+        ],
+        instructions: [
+            "Cook chicken pieces.",
+            "Place inside paratha with onion.",
+            "Add sauce and roll."
+        ]
+    },
+    {
+        id: "125",
+        name: "Simple Vegetable Soup BD",
+        ingredients: [
+            "vegetables",
+            "water",
+            "salt"
+        ],
+        instructions: [
+            "Boil vegetables.",
+            "Add salt.",
+            "Serve warm."
+        ]
+    },
+    {
+        id: "126",
+        name: "Banana Shake",
+        ingredients: [
+            "banana",
+            "milk",
+            "sugar"
+        ],
+        instructions: [
+            "Blend all ingredients.",
+            "Serve chilled."
+        ]
+    },
+    {
+        id: "127",
+        name: "Bread Omelette",
+        ingredients: [
+            "bread",
+            "egg",
+            "salt",
+            "oil"
+        ],
+        instructions: [
+            "Cook omelette.",
+            "Place between bread.",
+            "Serve."
+        ]
+    },
+    {
+        id: "128",
+        name: "Chicken Fry Quick",
+        ingredients: [
+            "chicken",
+            "salt",
+            "pepper",
+            "oil"
+        ],
+        instructions: [
+            "Season chicken.",
+            "Fry until golden and cooked.",
+            "Serve hot."
+        ]
+    },
+    {
+        id: "129",
+        name: "Tomato Bhorta",
+        ingredients: [
+            "tomato",
+            "onion",
+            "chili",
+            "oil",
+            "salt"
+        ],
+        instructions: [
+            "Roast tomatoes.",
+            "Mash with onion and chili.",
+            "Add oil and salt."
+        ]
+    },
+    {
+        id: "130",
+        name: "Simple Dal Soup",
+        ingredients: [
+            "lentils",
+            "water",
+            "salt"
+        ],
+        instructions: [
+            "Boil lentils.",
+            "Add salt.",
+            "Serve warm."
+        ]
     }
 ];
 const allIngredients = [
+    // 🔹 Protein
     "chicken",
-    "pasta",
-    "garlic",
-    "olive oil",
-    "parmesan",
-    "tomatoes",
-    "onion",
-    "basil",
-    "cream",
-    "broccoli",
-    "carrots",
-    "soy sauce",
-    "ginger",
-    "rice",
+    "chicken breast",
+    "chicken thighs",
     "ground beef",
-    "taco shells",
-    "lettuce",
-    "cheese",
-    "salsa",
-    "mushrooms",
-    "white wine",
-    "feta",
-    "olives",
-    "salmon",
-    "lemon",
-    "butter",
-    "eggs",
-    "peas",
-    "pizza dough",
-    "mozzarella",
-    "curry powder",
-    "bread",
-    "maple syrup",
-    "shrimp",
-    "balsamic vinegar",
-    "chocolate chips",
+    "beef",
     "pork",
-    "bbq sauce",
-    "coleslaw",
-    "caesar dressing",
-    "green curry paste",
-    "spinach",
-    "pie crust",
-    "honey",
-    "tortillas",
-    "red onion",
-    "cheddar cheese",
-    "capers",
-    "anchovy fillets",
-    "red pepper flakes",
-    "parsley",
-    "cilantro",
-    "cucumber",
-    "tzatziki sauce",
-    "bean sprouts",
-    "green onions",
-    "peanuts",
-    "lime",
-    "cannellini beans",
-    "zucchini",
-    "pita bread",
-    "rice noodles",
-    "pasta sauce",
-    "arborio rice",
-    "heavy cream",
-    "ricotta cheese",
-    "spinach",
-    "potatoes",
-    "bell peppers",
-    "chili powder",
-    "cumin",
-    "balsamic glaze",
+    "fish",
     "tilapia fillets",
-    "egg noodles",
-    "sour cream",
-    "flour",
-    "breadcrumbs",
-    "eggplant",
-    "red curry paste",
+    "salmon",
+    "shrimp",
+    "eggs",
+    "duck egg",
+    "chickpeas",
+    "lentils",
+    "red lentils",
+    "kidney beans",
+    "black beans",
+    // 🔹 Grains & Carbs
+    "rice",
+    "basmati rice",
+    "brown rice",
+    "pasta",
+    "spaghetti",
     "macaroni",
+    "noodles",
+    "rice noodles",
+    "egg noodles",
+    "bread",
+    "pita bread",
+    "pizza dough",
+    "tortillas",
+    "flour",
+    "rice flour",
+    "semolina (suji)",
+    "oats",
+    // 🔹 Dairy
     "milk",
+    "butter",
+    "ghee",
+    "cream",
+    "heavy cream",
+    "yogurt",
+    "cheese",
+    "cheddar cheese",
+    "mozzarella",
+    "parmesan",
+    "ricotta cheese",
+    "feta",
+    // 🔹 Vegetables (Core)
+    "onion",
+    "red onion",
+    "green onions",
+    "garlic",
+    "ginger",
+    "potatoes",
+    "sweet potatoes",
+    "tomatoes",
+    "carrots",
+    "cucumber",
+    "eggplant",
+    "zucchini",
+    "bell peppers",
+    "cabbage",
+    "spinach",
+    "broccoli",
+    "green beans",
+    "peas",
     "green peas",
-    "thyme",
-    "vegetable broth",
+    "pumpkin",
+    "bottle gourd",
+    "bitter gourd",
+    "drumstick vegetable",
+    // 🔹 Fruits
+    "banana",
+    "apple",
+    "mango",
+    "lemon",
+    "lime",
+    "orange",
+    "pineapple",
+    "strawberries",
+    "blueberries",
+    "avocado",
+    "dates",
+    "coconut",
+    // 🔹 Oils & Fats
+    "oil",
     "vegetable oil",
+    "olive oil",
+    "mustard oil",
+    "butter",
+    "ghee",
+    // 🔹 Spices (Basic)
+    "salt",
+    "black pepper",
+    "turmeric",
+    "chili powder",
+    "red chili flakes",
+    "cumin",
+    "coriander powder",
+    "garam masala",
+    "curry powder",
+    "paprika",
     "oregano",
+    "thyme",
+    "cinnamon",
+    "cardamom",
+    "cloves",
+    "bay leaf",
+    // 🔹 Sauces & Condiments
+    "soy sauce",
+    "tomato sauce",
+    "ketchup",
+    "bbq sauce",
+    "hot sauce",
     "sriracha",
     "mayonnaise",
-    "cinnamon",
-    "pine nuts"
+    "mustard sauce",
+    "vinegar",
+    "balsamic vinegar",
+    "balsamic glaze",
+    "caesar dressing",
+    "tzatziki sauce",
+    "pad thai sauce",
+    "teriyaki sauce",
+    // 🔹 Sweeteners
+    "sugar",
+    "brown sugar",
+    "honey",
+    "maple syrup",
+    // 🔹 Herbs & Extras
+    "parsley",
+    "cilantro",
+    "basil",
+    "mint",
+    "coriander leaves",
+    "green chili",
+    "dry chili",
+    // 🔹 Nuts & Seeds
+    "peanuts",
+    "almonds",
+    "cashews",
+    "pine nuts",
+    "sesame seeds",
+    // 🔹 Baking Essentials
+    "baking powder",
+    "baking soda",
+    "vanilla extract",
+    "cocoa powder",
+    "chocolate chips",
+    // 🔹 Liquid Base
+    "water",
+    "vegetable broth",
+    "chicken broth",
+    "beef broth",
+    "coconut milk",
+    // 🔹 Ready / Processed
+    "coleslaw",
+    "croutons",
+    "anchovy fillets",
+    "capers",
+    "olives",
+    "bean sprouts"
 ];
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
@@ -2859,26 +3459,37 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
         setIngredients(updated);
         localStorage.setItem("recipeGenieIngredients", JSON.stringify(updated));
     };
-    // Update suggestions as user types
     const handleChange = (e)=>{
-        const value = e.target.value;
+        const value = e.target.value.toLowerCase();
         setCurrentIngredient(value);
         if (value.trim()) {
-            const matches = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$recipes$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["allIngredients"].filter((item)=>item.toLowerCase().includes(value.toLowerCase()) && !ingredients.includes(item.toLowerCase())).slice(0, 5) // show top 5 suggestions
-            ;
-            setSuggestions(matches);
+            // Ingredient matches
+            const ingredientMatches = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$recipes$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["allIngredients"].filter((item)=>item.toLowerCase().includes(value) && !ingredients.includes(item.toLowerCase()));
+            // Recipe name matches
+            const recipeMatches = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$recipes$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["recipes"].filter((recipe)=>recipe.name.toLowerCase().includes(value)).map((recipe)=>recipe.name);
+            const combined = [
+                ...ingredientMatches,
+                ...recipeMatches
+            ].slice(0, 5);
+            setSuggestions(combined);
         } else {
             setSuggestions([]);
         }
     };
     const selectSuggestion = (suggestion)=>{
-        if (!ingredients.includes(suggestion.toLowerCase())) {
-            const updated = [
-                ...ingredients,
-                suggestion.toLowerCase()
-            ];
-            setIngredients(updated);
-            localStorage.setItem("recipeGenieIngredients", JSON.stringify(updated));
+        const isRecipe = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$recipes$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["recipes"].some((r)=>r.name.toLowerCase() === suggestion.toLowerCase());
+        if (isRecipe) {
+            // directly search recipes
+            onFindRecipes(suggestion);
+        } else {
+            if (!ingredients.includes(suggestion.toLowerCase())) {
+                const updated = [
+                    ...ingredients,
+                    suggestion.toLowerCase()
+                ];
+                setIngredients(updated);
+                localStorage.setItem("recipeGenieIngredients", JSON.stringify(updated));
+            }
         }
         setCurrentIngredient("");
         setSuggestions([]);
@@ -2902,12 +3513,12 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                             className: "w-6 h-6 text-primary-foreground"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ingredient-input.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 102,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/ingredient-input.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 101,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2917,7 +3528,7 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                                 children: "Recipe Genie"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ingredient-input.tsx",
-                                                lineNumber: 89,
+                                                lineNumber: 105,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2928,19 +3539,19 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/ingredient-input.tsx",
-                                                lineNumber: 90,
+                                                lineNumber: 106,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ingredient-input.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 104,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ingredient-input.tsx",
-                                lineNumber: 84,
+                                lineNumber: 100,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2955,14 +3566,14 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                                 className: "w-4 h-4 mr-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ingredient-input.tsx",
-                                                lineNumber: 95,
+                                                lineNumber: 111,
                                                 columnNumber: 17
                                             }, this),
                                             "Saved"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ingredient-input.tsx",
-                                        lineNumber: 94,
+                                        lineNumber: 110,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -2973,34 +3584,34 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                             className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ingredient-input.tsx",
-                                            lineNumber: 99,
+                                            lineNumber: 115,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/ingredient-input.tsx",
-                                        lineNumber: 98,
+                                        lineNumber: 114,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ingredient-input.tsx",
-                                lineNumber: 93,
+                                lineNumber: 109,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ingredient-input.tsx",
-                        lineNumber: 83,
+                        lineNumber: 99,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/ingredient-input.tsx",
-                    lineNumber: 82,
+                    lineNumber: 98,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ingredient-input.tsx",
-                lineNumber: 81,
+                lineNumber: 97,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -3016,7 +3627,7 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                     children: "What's in your kitchen?"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ingredient-input.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 125,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3024,13 +3635,13 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                     children: "Add the ingredients you have and discover amazing recipes"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ingredient-input.tsx",
-                                    lineNumber: 110,
+                                    lineNumber: 126,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ingredient-input.tsx",
-                            lineNumber: 108,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -3039,23 +3650,23 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardHeader"], {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
-                                            children: "Add Ingredients"
+                                            children: "Add Ingredients or Search Recipes"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ingredient-input.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 133,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
                                             children: "Enter one ingredient at a time"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ingredient-input.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 134,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ingredient-input.tsx",
-                                    lineNumber: 116,
+                                    lineNumber: 132,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -3073,7 +3684,7 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                                     className: "h-11"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ingredient-input.tsx",
-                                                    lineNumber: 122,
+                                                    lineNumber: 138,
                                                     columnNumber: 17
                                                 }, this),
                                                 suggestions.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -3084,12 +3695,12 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                                             children: s
                                                         }, s, false, {
                                                             fileName: "[project]/components/ingredient-input.tsx",
-                                                            lineNumber: 132,
+                                                            lineNumber: 148,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ingredient-input.tsx",
-                                                    lineNumber: 130,
+                                                    lineNumber: 146,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -3099,13 +3710,13 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                                     children: "Add"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ingredient-input.tsx",
-                                                    lineNumber: 142,
+                                                    lineNumber: 158,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ingredient-input.tsx",
-                                            lineNumber: 121,
+                                            lineNumber: 137,
                                             columnNumber: 15
                                         }, this),
                                         ingredients.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3120,7 +3731,7 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/ingredient-input.tsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 165,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3137,29 +3748,29 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                                                         className: "w-3 h-3"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/ingredient-input.tsx",
-                                                                        lineNumber: 158,
+                                                                        lineNumber: 174,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/ingredient-input.tsx",
-                                                                    lineNumber: 154,
+                                                                    lineNumber: 170,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, ingredient, true, {
                                                             fileName: "[project]/components/ingredient-input.tsx",
-                                                            lineNumber: 152,
+                                                            lineNumber: 168,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ingredient-input.tsx",
-                                                    lineNumber: 150,
+                                                    lineNumber: 166,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ingredient-input.tsx",
-                                            lineNumber: 148,
+                                            lineNumber: 164,
                                             columnNumber: 17
                                         }, this),
                                         ingredients.length >= 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -3171,7 +3782,7 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                                     className: "w-4 h-4 mr-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ingredient-input.tsx",
-                                                    lineNumber: 168,
+                                                    lineNumber: 184,
                                                     columnNumber: 19
                                                 }, this),
                                                 "Find Recipes (",
@@ -3180,7 +3791,7 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/ingredient-input.tsx",
-                                            lineNumber: 167,
+                                            lineNumber: 183,
                                             columnNumber: 17
                                         }, this),
                                         ingredients.length === 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3188,36 +3799,36 @@ function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }) {
                                             children: "Add at least one more ingredient to find recipes"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ingredient-input.tsx",
-                                            lineNumber: 174,
+                                            lineNumber: 190,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ingredient-input.tsx",
-                                    lineNumber: 120,
+                                    lineNumber: 136,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ingredient-input.tsx",
-                            lineNumber: 115,
+                            lineNumber: 131,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ingredient-input.tsx",
-                    lineNumber: 107,
+                    lineNumber: 123,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ingredient-input.tsx",
-                lineNumber: 106,
+                lineNumber: 122,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ingredient-input.tsx",
-        lineNumber: 80,
+        lineNumber: 96,
         columnNumber: 5
     }, this);
 }
@@ -3255,39 +3866,45 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-function RecipeMatch({ onBack, onViewSaved }) {
+function RecipeMatch({ query, ingredients: propIngredients, onBack, onViewSaved }) {
     _s();
     const [ingredients, setIngredients] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [matchedRecipes, setMatchedRecipes] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [savedRecipes, setSavedRecipes] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "RecipeMatch.useEffect": ()=>{
-            // Load ingredients
-            const stored = localStorage.getItem("recipeGenieIngredients");
-            if (stored) {
-                const userIngredients = JSON.parse(stored);
-                setIngredients(userIngredients);
-                // Match recipes
-                const matches = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$recipes$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["recipes"].filter({
-                    "RecipeMatch.useEffect.matches": (recipe)=>{
+            let results = [];
+            // 🔍 1. Recipe name search
+            if (query && query.trim()) {
+                results = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$recipes$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["recipes"].filter({
+                    "RecipeMatch.useEffect": (recipe)=>recipe.name.toLowerCase().includes(query.toLowerCase())
+                }["RecipeMatch.useEffect"]);
+                setMatchedRecipes(results);
+                setIngredients([]);
+            } else if (propIngredients && propIngredients.length > 0) {
+                setIngredients(propIngredients);
+                results = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$recipes$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["recipes"].filter({
+                    "RecipeMatch.useEffect": (recipe)=>{
                         const matchCount = recipe.ingredients.filter({
-                            "RecipeMatch.useEffect.matches": (ing)=>userIngredients.some({
-                                    "RecipeMatch.useEffect.matches": (userIng)=>ing.toLowerCase().includes(userIng)
-                                }["RecipeMatch.useEffect.matches"])
-                        }["RecipeMatch.useEffect.matches"]).length;
-                        return matchCount >= 2 // At least 2 ingredients match
-                        ;
+                            "RecipeMatch.useEffect": (ing)=>propIngredients.some({
+                                    "RecipeMatch.useEffect": (userIng)=>ing.toLowerCase().includes(userIng.toLowerCase())
+                                }["RecipeMatch.useEffect"])
+                        }["RecipeMatch.useEffect"]).length;
+                        return matchCount >= 2;
                     }
-                }["RecipeMatch.useEffect.matches"]);
-                setMatchedRecipes(matches);
+                }["RecipeMatch.useEffect"]);
+                setMatchedRecipes(results);
             }
-            // Load saved recipes
+            // 💾 Load saved recipes
             const saved = localStorage.getItem("recipeGenieSaved");
             if (saved) {
                 setSavedRecipes(JSON.parse(saved));
             }
         }
-    }["RecipeMatch.useEffect"], []);
+    }["RecipeMatch.useEffect"], [
+        query,
+        propIngredients
+    ]);
     const toggleSave = (recipeId)=>{
         let updated;
         if (savedRecipes.includes(recipeId)) {
@@ -3307,394 +3924,363 @@ function RecipeMatch({ onBack, onViewSaved }) {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
                 className: "border-b bg-card",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "container mx-auto px-4 py-4",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center justify-between",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center gap-3",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "rounded-full bg-primary p-2",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chef$2d$hat$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChefHat$3e$__["ChefHat"], {
-                                            className: "w-6 h-6 text-primary-foreground"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/recipe-match.tsx",
-                                            lineNumber: 62,
-                                            columnNumber: 17
-                                        }, this)
+                    className: "container mx-auto px-4 py-4 flex items-center justify-between",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center gap-3",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "rounded-full bg-primary p-2",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chef$2d$hat$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChefHat$3e$__["ChefHat"], {
+                                        className: "w-6 h-6 text-primary-foreground"
                                     }, void 0, false, {
                                         fileName: "[project]/components/recipe-match.tsx",
-                                        lineNumber: 61,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        className: "text-xl font-bold",
-                                        children: "Recipe Genie"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/recipe-match.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 85,
                                         columnNumber: 15
                                     }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/recipe-match.tsx",
+                                    lineNumber: 84,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                    className: "text-xl font-bold",
+                                    children: "Recipe Genie"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/recipe-match.tsx",
+                                    lineNumber: 87,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/recipe-match.tsx",
+                            lineNumber: 83,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center gap-2",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                    variant: "outline",
+                                    size: "sm",
+                                    onClick: onViewSaved,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$marked$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BookMarked$3e$__["BookMarked"], {
+                                            className: "w-4 h-4 mr-2"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/recipe-match.tsx",
+                                            lineNumber: 92,
+                                            columnNumber: 15
+                                        }, this),
+                                        "Saved (",
+                                        savedRecipes.length,
+                                        ")"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/recipe-match.tsx",
+                                    lineNumber: 91,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                    variant: "ghost",
+                                    size: "sm",
+                                    onClick: onBack,
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowLeft$3e$__["ArrowLeft"], {
+                                        className: "w-4 h-4"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/recipe-match.tsx",
+                                        lineNumber: 97,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/recipe-match.tsx",
+                                    lineNumber: 96,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/recipe-match.tsx",
+                            lineNumber: 90,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/recipe-match.tsx",
+                    lineNumber: 81,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/recipe-match.tsx",
+                lineNumber: 80,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                className: "container mx-auto px-4 py-8 max-w-4xl",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-center space-y-2 mb-6",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "text-3xl font-bold",
+                                children: query ? `Results for "${query}"` : "Recipe Matches"
+                            }, void 0, false, {
+                                fileName: "[project]/components/recipe-match.tsx",
+                                lineNumber: 109,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-muted-foreground",
+                                children: [
+                                    "Found ",
+                                    matchedRecipes.length,
+                                    " recipe(s)"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/recipe-match.tsx",
-                                lineNumber: 60,
+                                lineNumber: 113,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/recipe-match.tsx",
+                        lineNumber: 108,
+                        columnNumber: 9
+                    }, this),
+                    !query && ingredients.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+                        className: "mb-6 bg-muted/50",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardHeader"], {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
+                                    className: "text-base",
+                                    children: "Your Ingredients"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/recipe-match.tsx",
+                                    lineNumber: 122,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/components/recipe-match.tsx",
+                                lineNumber: 121,
                                 columnNumber: 13
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        variant: "outline",
-                                        size: "sm",
-                                        onClick: onViewSaved,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$marked$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BookMarked$3e$__["BookMarked"], {
-                                                className: "w-4 h-4 mr-2"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/recipe-match.tsx",
-                                                lineNumber: 68,
-                                                columnNumber: 17
-                                            }, this),
-                                            "Saved (",
-                                            savedRecipes.length,
-                                            ")"
-                                        ]
-                                    }, void 0, true, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
+                                className: "flex flex-wrap gap-2",
+                                children: ingredients.map((ing)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
+                                        variant: "secondary",
+                                        children: ing
+                                    }, ing, false, {
                                         fileName: "[project]/components/recipe-match.tsx",
-                                        lineNumber: 67,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                        variant: "ghost",
-                                        size: "sm",
-                                        onClick: onBack,
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowLeft$3e$__["ArrowLeft"], {
-                                            className: "w-4 h-4"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/recipe-match.tsx",
-                                            lineNumber: 72,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/recipe-match.tsx",
-                                        lineNumber: 71,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                        lineNumber: 126,
+                                        columnNumber: 17
+                                    }, this))
+                            }, void 0, false, {
                                 fileName: "[project]/components/recipe-match.tsx",
-                                lineNumber: 66,
+                                lineNumber: 124,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/recipe-match.tsx",
-                        lineNumber: 59,
+                        lineNumber: 120,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/components/recipe-match.tsx",
-                    lineNumber: 58,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/components/recipe-match.tsx",
-                lineNumber: 57,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-                className: "container mx-auto px-4 py-8 max-w-4xl",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "space-y-6",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "text-center space-y-2",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-3xl font-bold text-balance",
-                                    children: "Recipe Matches"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/recipe-match.tsx",
-                                    lineNumber: 82,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-muted-foreground text-balance",
-                                    children: [
-                                        "Found ",
-                                        matchedRecipes.length,
-                                        " recipes with your ingredients"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/recipe-match.tsx",
-                                    lineNumber: 83,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/recipe-match.tsx",
-                            lineNumber: 81,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                            className: "border-2 bg-muted/50",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardHeader"], {
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
-                                        className: "text-base",
-                                        children: "Your Ingredients"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/recipe-match.tsx",
-                                        lineNumber: 90,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/components/recipe-match.tsx",
-                                    lineNumber: 89,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex flex-wrap gap-2",
-                                        children: ingredients.map((ingredient)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
-                                                variant: "secondary",
-                                                children: ingredient
-                                            }, ingredient, false, {
-                                                fileName: "[project]/components/recipe-match.tsx",
-                                                lineNumber: 95,
-                                                columnNumber: 19
-                                            }, this))
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/recipe-match.tsx",
-                                        lineNumber: 93,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/components/recipe-match.tsx",
-                                    lineNumber: 92,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/recipe-match.tsx",
-                            lineNumber: 88,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid gap-4 md:grid-cols-2",
-                            children: matchedRecipes.map((recipe)=>{
-                                const matchCount = recipe.ingredients.filter((ing)=>ingredients.some((userIng)=>ing.toLowerCase().includes(userIng))).length;
-                                const isSaved = savedRecipes.includes(recipe.id);
-                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                                    className: "border-2 hover:shadow-lg transition-shadow",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardHeader"], {
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex items-start justify-between gap-2",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "flex-1",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
-                                                                className: "text-xl",
-                                                                children: recipe.name
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/recipe-match.tsx",
-                                                                lineNumber: 115,
-                                                                columnNumber: 25
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
-                                                                className: "mt-1",
-                                                                children: [
-                                                                    matchCount,
-                                                                    " of ",
-                                                                    recipe.ingredients.length,
-                                                                    " ingredients matched"
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/components/recipe-match.tsx",
-                                                                lineNumber: 116,
-                                                                columnNumber: 25
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/components/recipe-match.tsx",
-                                                        lineNumber: 114,
-                                                        columnNumber: 23
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                                                        variant: isSaved ? "default" : "outline",
-                                                        size: "icon",
-                                                        onClick: ()=>toggleSave(recipe.id),
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
-                                                            className: `w-4 h-4 ${isSaved ? "fill-current" : ""}`
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/recipe-match.tsx",
-                                                            lineNumber: 125,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/recipe-match.tsx",
-                                                        lineNumber: 120,
-                                                        columnNumber: 23
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/recipe-match.tsx",
-                                                lineNumber: 113,
-                                                columnNumber: 21
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/recipe-match.tsx",
-                                            lineNumber: 112,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
-                                            className: "space-y-4",
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid gap-4 md:grid-cols-2",
+                        children: matchedRecipes.map((recipe)=>{
+                            const isSaved = savedRecipes.includes(recipe.id);
+                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+                                className: "border-2 hover:shadow-lg transition",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardHeader"], {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex justify-between items-start",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-sm font-medium mb-2",
-                                                            children: "Ingredients needed:"
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
+                                                            children: recipe.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/recipe-match.tsx",
-                                                            lineNumber: 131,
+                                                            lineNumber: 146,
                                                             columnNumber: 23
                                                         }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex flex-wrap gap-1.5",
-                                                            children: recipe.ingredients.map((ing, idx)=>{
-                                                                const hasIngredient = ingredients.some((userIng)=>ing.toLowerCase().includes(userIng));
-                                                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
-                                                                    variant: hasIngredient ? "default" : "outline",
-                                                                    className: "text-xs",
-                                                                    children: ing
-                                                                }, idx, false, {
-                                                                    fileName: "[project]/components/recipe-match.tsx",
-                                                                    lineNumber: 136,
-                                                                    columnNumber: 29
-                                                                }, this);
-                                                            })
-                                                        }, void 0, false, {
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardDescription"], {
+                                                            children: [
+                                                                recipe.ingredients.length,
+                                                                " ingredients"
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "[project]/components/recipe-match.tsx",
-                                                            lineNumber: 132,
+                                                            lineNumber: 147,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/recipe-match.tsx",
-                                                    lineNumber: 130,
+                                                    lineNumber: 145,
                                                     columnNumber: 21
                                                 }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-sm font-medium mb-2",
-                                                            children: "Instructions:"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/recipe-match.tsx",
-                                                            lineNumber: 144,
-                                                            columnNumber: 23
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
-                                                            className: "text-sm text-muted-foreground space-y-1 list-decimal list-inside",
-                                                            children: recipe.instructions.map((step, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    className: "leading-relaxed",
-                                                                    children: step
-                                                                }, idx, false, {
-                                                                    fileName: "[project]/components/recipe-match.tsx",
-                                                                    lineNumber: 147,
-                                                                    columnNumber: 27
-                                                                }, this))
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/recipe-match.tsx",
-                                                            lineNumber: 145,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                                    variant: isSaved ? "default" : "outline",
+                                                    size: "icon",
+                                                    onClick: ()=>toggleSave(recipe.id),
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
+                                                        className: isSaved ? "fill-current w-4 h-4" : "w-4 h-4"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/recipe-match.tsx",
+                                                        lineNumber: 157,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                }, void 0, false, {
                                                     fileName: "[project]/components/recipe-match.tsx",
-                                                    lineNumber: 143,
+                                                    lineNumber: 152,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/recipe-match.tsx",
-                                            lineNumber: 129,
+                                            lineNumber: 143,
                                             columnNumber: 19
                                         }, this)
-                                    ]
-                                }, recipe.id, true, {
-                                    fileName: "[project]/components/recipe-match.tsx",
-                                    lineNumber: 111,
-                                    columnNumber: 17
-                                }, this);
-                            })
-                        }, void 0, false, {
-                            fileName: "[project]/components/recipe-match.tsx",
-                            lineNumber: 103,
-                            columnNumber: 11
-                        }, this),
-                        matchedRecipes.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                            className: "border-2",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
-                                className: "py-12 text-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-muted-foreground text-balance",
-                                        children: "No recipes found with your current ingredients. Try adding more ingredients!"
                                     }, void 0, false, {
                                         fileName: "[project]/components/recipe-match.tsx",
-                                        lineNumber: 162,
+                                        lineNumber: 142,
                                         columnNumber: 17
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
+                                        className: "space-y-3",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-sm font-medium mb-2",
+                                                        children: "Ingredients"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/recipe-match.tsx",
+                                                        lineNumber: 167,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex flex-wrap gap-1.5",
+                                                        children: recipe.ingredients.map((ing, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
+                                                                variant: "outline",
+                                                                className: "text-xs",
+                                                                children: ing
+                                                            }, i, false, {
+                                                                fileName: "[project]/components/recipe-match.tsx",
+                                                                lineNumber: 170,
+                                                                columnNumber: 25
+                                                            }, this))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/recipe-match.tsx",
+                                                        lineNumber: 168,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/recipe-match.tsx",
+                                                lineNumber: 166,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-sm font-medium mb-2",
+                                                        children: "Steps"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/recipe-match.tsx",
+                                                        lineNumber: 179,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
+                                                        className: "text-sm text-muted-foreground list-decimal list-inside space-y-1",
+                                                        children: recipe.instructions.map((step, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                children: step
+                                                            }, i, false, {
+                                                                fileName: "[project]/components/recipe-match.tsx",
+                                                                lineNumber: 182,
+                                                                columnNumber: 25
+                                                            }, this))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/recipe-match.tsx",
+                                                        lineNumber: 180,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/recipe-match.tsx",
+                                                lineNumber: 178,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/recipe-match.tsx",
+                                        lineNumber: 163,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, recipe.id, true, {
+                                fileName: "[project]/components/recipe-match.tsx",
+                                lineNumber: 140,
+                                columnNumber: 15
+                            }, this);
+                        })
+                    }, void 0, false, {
+                        fileName: "[project]/components/recipe-match.tsx",
+                        lineNumber: 135,
+                        columnNumber: 9
+                    }, this),
+                    matchedRecipes.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+                        className: "mt-6",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
+                            className: "py-10 text-center text-muted-foreground",
+                            children: [
+                                "No recipes found. Try another search.",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-4",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                         onClick: onBack,
-                                        className: "mt-4",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowLeft$3e$__["ArrowLeft"], {
                                                 className: "w-4 h-4 mr-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/recipe-match.tsx",
-                                                lineNumber: 166,
+                                                lineNumber: 201,
                                                 columnNumber: 19
                                             }, this),
-                                            "Back to Ingredients"
+                                            "Back"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/recipe-match.tsx",
-                                        lineNumber: 165,
+                                        lineNumber: 200,
                                         columnNumber: 17
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/recipe-match.tsx",
-                                lineNumber: 161,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
+                                }, void 0, false, {
+                                    fileName: "[project]/components/recipe-match.tsx",
+                                    lineNumber: 199,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/recipe-match.tsx",
-                            lineNumber: 160,
+                            lineNumber: 197,
                             columnNumber: 13
                         }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/components/recipe-match.tsx",
-                    lineNumber: 80,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
+                    }, void 0, false, {
+                        fileName: "[project]/components/recipe-match.tsx",
+                        lineNumber: 196,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/components/recipe-match.tsx",
-                lineNumber: 79,
+                lineNumber: 105,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/recipe-match.tsx",
-        lineNumber: 56,
+        lineNumber: 78,
         columnNumber: 5
     }, this);
 }
@@ -4104,6 +4690,8 @@ function Home() {
     _s();
     const [currentView, setCurrentView] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("login");
     const [user, setUser] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [searchQuery, setSearchQuery] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [selectedIngredients, setSelectedIngredients] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Home.useEffect": ()=>{
             // Check if user is already logged in
@@ -4128,6 +4716,19 @@ function Home() {
         setUser(null);
         setCurrentView("login");
     };
+    const handleFindRecipes = (query)=>{
+        if (query) {
+            setSearchQuery(query); // recipe name এসেছে
+            setSelectedIngredients([]);
+        } else {
+            const stored = localStorage.getItem("recipeGenieIngredients");
+            if (stored) {
+                setSelectedIngredients(JSON.parse(stored)); // ingredient mode
+            }
+            setSearchQuery(null);
+        }
+        setCurrentView("recipes");
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "min-h-screen bg-background",
         children: [
@@ -4135,42 +4736,44 @@ function Home() {
                 onLogin: handleLogin
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 37,
+                lineNumber: 55,
                 columnNumber: 35
             }, this),
             currentView === "ingredients" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ingredient$2d$input$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["IngredientInput"], {
                 user: user,
                 onLogout: handleLogout,
                 onViewSaved: ()=>setCurrentView("saved"),
-                onFindRecipes: ()=>setCurrentView("recipes")
+                onFindRecipes: handleFindRecipes
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 39,
+                lineNumber: 57,
                 columnNumber: 9
             }, this),
             currentView === "recipes" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$recipe$2d$match$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RecipeMatch"], {
+                query: searchQuery,
+                ingredients: selectedIngredients,
                 onBack: ()=>setCurrentView("ingredients"),
                 onViewSaved: ()=>setCurrentView("saved")
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 47,
+                lineNumber: 65,
                 columnNumber: 9
             }, this),
             currentView === "saved" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$saved$2d$recipes$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SavedRecipes"], {
                 onBack: ()=>setCurrentView("ingredients")
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 49,
+                lineNumber: 72,
                 columnNumber: 35
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 36,
+        lineNumber: 54,
         columnNumber: 5
     }, this);
 }
-_s(Home, "KvKrIELKOuidvAY6vgBV91LzCK8=");
+_s(Home, "WD1hqYhXREtqgo7Zmrs/YpubBEk=");
 _c = Home;
 var _c;
 __turbopack_context__.k.register(_c, "Home");

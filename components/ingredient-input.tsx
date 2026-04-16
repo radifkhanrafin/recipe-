@@ -6,14 +6,14 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ChefHat, X, Search, BookMarked, LogOut } from "lucide-react" 
-import { allIngredients } from "../lib/recipes";
+import { ChefHat, X, Search, BookMarked, LogOut } from "lucide-react"
+import { allIngredients , recipes } from "../lib/recipes"; 
 
 interface IngredientInputProps {
   user: { name: string; email: string } | null
   onLogout: () => void
   onViewSaved: () => void
-  onFindRecipes: () => void
+  onFindRecipes: (query?: string) => void
 }
 
 export function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }: IngredientInputProps) {
@@ -47,31 +47,47 @@ export function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }: 
     localStorage.setItem("recipeGenieIngredients", JSON.stringify(updated))
   }
 
-  // Update suggestions as user types
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value
-    setCurrentIngredient(value)
+const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const value = e.target.value.toLowerCase()
+  setCurrentIngredient(value)
 
-    if (value.trim()) {
-      const matches = allIngredients
-        .filter(
-          (item) =>
-            item.toLowerCase().includes(value.toLowerCase()) &&
-            !ingredients.includes(item.toLowerCase())
-        )
-        .slice(0, 5) // show top 5 suggestions
-      setSuggestions(matches)
-    } else {
-      setSuggestions([])
-    }
+  if (value.trim()) {
+    // Ingredient matches
+    const ingredientMatches = allIngredients.filter(
+      (item) =>
+        item.toLowerCase().includes(value) &&
+        !ingredients.includes(item.toLowerCase())
+    )
+
+    // Recipe name matches
+    const recipeMatches = recipes
+      .filter((recipe) => recipe.name.toLowerCase().includes(value))
+      .map((recipe) => recipe.name)
+
+    const combined = [...ingredientMatches, ...recipeMatches].slice(0, 5)
+
+    setSuggestions(combined)
+  } else {
+    setSuggestions([])
   }
+}
 
   const selectSuggestion = (suggestion: string) => {
-    if (!ingredients.includes(suggestion.toLowerCase())) {
-      const updated = [...ingredients, suggestion.toLowerCase()]
-      setIngredients(updated)
-      localStorage.setItem("recipeGenieIngredients", JSON.stringify(updated))
+    const isRecipe = recipes.some(
+      (r) => r.name.toLowerCase() === suggestion.toLowerCase()
+    )
+
+    if (isRecipe) {
+      // directly search recipes
+      onFindRecipes(suggestion)
+    } else {
+      if (!ingredients.includes(suggestion.toLowerCase())) {
+        const updated = [...ingredients, suggestion.toLowerCase()]
+        setIngredients(updated)
+        localStorage.setItem("recipeGenieIngredients", JSON.stringify(updated))
+      }
     }
+
     setCurrentIngredient("")
     setSuggestions([])
   }
@@ -114,7 +130,7 @@ export function IngredientInput({ user, onLogout, onViewSaved, onFindRecipes }: 
 
           <Card className="border-2">
             <CardHeader>
-              <CardTitle>Add Ingredients</CardTitle>
+              <CardTitle>Add Ingredients or Search Recipes</CardTitle>
               <CardDescription>Enter one ingredient at a time</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
