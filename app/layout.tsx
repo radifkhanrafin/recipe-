@@ -13,6 +13,8 @@ export const metadata: Metadata = {
  
 }
 
+ 
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -20,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased`}>
+      <body className={`${_geist.className} ${_geistMono.className} antialiased`}>
         {children}
         <Analytics />
       </body>

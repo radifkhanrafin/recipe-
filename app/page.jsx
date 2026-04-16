@@ -7,13 +7,17 @@ import { RecipeMatch } from "@/components/recipe-match"
 import { SavedRecipes } from "@/components/saved-recipes"
 
 export default function Home() {
-  const [currentView, setCurrentView] = useState<"login" | "ingredients" | "recipes" | "saved">("login")
-  const [user, setUser] = useState<{ name: string; email: string } | null>(null)
 
-  const [searchQuery, setSearchQuery] = useState<string | null>(null)
-  const [selectedIngredients, setSelectedIngredients] = useState<string[]>([])
+
+  const [currentView, setCurrentView] = useState("login")
+  const [user, setUser] = useState(null)
+
+  const [searchQuery, setSearchQuery] = useState(null)
+  const [selectedIngredients, setSelectedIngredients] = useState([])
+
+
+  // console.log(currentView ,searchQuery , selectedIngredients )
   useEffect(() => {
-    // Check if user is already logged in
     const storedUser = localStorage.getItem("recipeGenieUser")
     if (storedUser) {
       setUser(JSON.parse(storedUser))
@@ -21,7 +25,7 @@ export default function Home() {
     }
   }, [])
 
-  const handleLogin = (name: string, email: string) => {
+  const handleLogin = (name, email) => {
     const userData = { name, email }
     localStorage.setItem("recipeGenieUser", JSON.stringify(userData))
     setUser(userData)
@@ -33,14 +37,15 @@ export default function Home() {
     setUser(null)
     setCurrentView("login")
   }
-  const handleFindRecipes = (query?: string) => {
+
+  const handleFindRecipes = (query) => {
     if (query) {
-      setSearchQuery(query) // recipe name এসেছে
+      setSearchQuery(query)
       setSelectedIngredients([])
     } else {
       const stored = localStorage.getItem("recipeGenieIngredients")
       if (stored) {
-        setSelectedIngredients(JSON.parse(stored)) // ingredient mode
+        setSelectedIngredients(JSON.parse(stored))
       }
       setSearchQuery(null)
     }
@@ -48,11 +53,10 @@ export default function Home() {
     setCurrentView("recipes")
   }
 
-
-
   return (
     <div className="min-h-screen bg-background">
       {currentView === "login" && <Login onLogin={handleLogin} />}
+
       {currentView === "ingredients" && (
         <IngredientInput
           user={user}
@@ -61,6 +65,7 @@ export default function Home() {
           onFindRecipes={handleFindRecipes}
         />
       )}
+
       {currentView === "recipes" && (
         <RecipeMatch
           query={searchQuery}
@@ -69,7 +74,10 @@ export default function Home() {
           onViewSaved={() => setCurrentView("saved")}
         />
       )}
-      {currentView === "saved" && <SavedRecipes onBack={() => setCurrentView("ingredients")} />}
+
+      {currentView === "saved" && (
+        <SavedRecipes onBack={() => setCurrentView("ingredients")} />
+      )}
     </div>
   )
 }

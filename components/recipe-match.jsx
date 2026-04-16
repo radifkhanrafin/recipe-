@@ -7,37 +7,28 @@ import { Badge } from "@/components/ui/badge"
 import { ChefHat, ArrowLeft, BookMarked, Heart } from "lucide-react"
 import { recipes } from "@/lib/recipes"
 
-interface RecipeMatchProps {
-  query?: string | null
-  ingredients?: string[]
-  onBack: () => void
-  onViewSaved: () => void
-}
+export const RecipeMatch = ({ query, ingredients: propIngredients, onBack, onViewSaved }) => {
 
-export function RecipeMatch({
-  query,
-  ingredients: propIngredients,
-  onBack,
-  onViewSaved,
-}: RecipeMatchProps) {
-  const [ingredients, setIngredients] = useState<string[]>([])
-  const [matchedRecipes, setMatchedRecipes] = useState<typeof recipes>([])
-  const [savedRecipes, setSavedRecipes] = useState<string[]>([])
+  console.log(recipes , )
+
+  const [ingredients, setIngredients] = useState([])
+  const [matchedRecipes, setMatchedRecipes] = useState([])
+  const [savedRecipes, setSavedRecipes] = useState([])
 
   useEffect(() => {
-    let results: typeof recipes = []
+    let results = []
 
-    // 🔍 1. Recipe name search
-    if (query && query.trim()) {
+    // 🔍 Name search
+    if (typeof query === "string" && query.trim()) {
       results = recipes.filter((recipe) =>
         recipe.name.toLowerCase().includes(query.toLowerCase())
       )
-
+      console.log(results)
       setMatchedRecipes(results)
       setIngredients([])
     }
 
-    // 🥕 2. Ingredient-based search
+    // 🥕 Ingredient search
     else if (propIngredients && propIngredients.length > 0) {
       setIngredients(propIngredients)
 
@@ -54,15 +45,16 @@ export function RecipeMatch({
       setMatchedRecipes(results)
     }
 
-    // 💾 Load saved recipes
+    // 💾 Load saved
     const saved = localStorage.getItem("recipeGenieSaved")
     if (saved) {
       setSavedRecipes(JSON.parse(saved))
     }
+
   }, [query, propIngredients])
 
-  const toggleSave = (recipeId: string) => {
-    let updated: string[]
+  const toggleSave = (recipeId) => {
+    let updated
 
     if (savedRecipes.includes(recipeId)) {
       updated = savedRecipes.filter((id) => id !== recipeId)
@@ -79,7 +71,7 @@ export function RecipeMatch({
       {/* Header */}
       <header className="border-b bg-card">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          
+
           <div className="flex items-center gap-3">
             <div className="rounded-full bg-primary p-2">
               <ChefHat className="w-6 h-6 text-primary-foreground" />
@@ -104,7 +96,6 @@ export function RecipeMatch({
       {/* Main */}
       <main className="container mx-auto px-4 py-8 max-w-4xl">
 
-        {/* Title */}
         <div className="text-center space-y-2 mb-6">
           <h2 className="text-3xl font-bold">
             {query ? `Results for "${query}"` : "Recipe Matches"}
@@ -115,7 +106,6 @@ export function RecipeMatch({
           </p>
         </div>
 
-        {/* Ingredients */}
         {!query && ingredients.length > 0 && (
           <Card className="mb-6 bg-muted/50">
             <CardHeader>
@@ -131,17 +121,15 @@ export function RecipeMatch({
           </Card>
         )}
 
-        {/* Recipes */}
         <div className="grid gap-4 md:grid-cols-2">
           {matchedRecipes.map((recipe) => {
             const isSaved = savedRecipes.includes(recipe.id)
 
             return (
               <Card key={recipe.id} className="border-2 hover:shadow-lg transition">
-                
                 <CardHeader>
                   <div className="flex justify-between items-start">
-                    
+
                     <div>
                       <CardTitle>{recipe.name}</CardTitle>
                       <CardDescription>
@@ -162,7 +150,6 @@ export function RecipeMatch({
 
                 <CardContent className="space-y-3">
 
-                  {/* Ingredients */}
                   <div>
                     <p className="text-sm font-medium mb-2">Ingredients</p>
                     <div className="flex flex-wrap gap-1.5">
@@ -174,7 +161,6 @@ export function RecipeMatch({
                     </div>
                   </div>
 
-                  {/* Instructions */}
                   <div>
                     <p className="text-sm font-medium mb-2">Steps</p>
                     <ol className="text-sm text-muted-foreground list-decimal list-inside space-y-1">
@@ -185,13 +171,11 @@ export function RecipeMatch({
                   </div>
 
                 </CardContent>
-
               </Card>
             )
           })}
         </div>
 
-        {/* Empty state */}
         {matchedRecipes.length === 0 && (
           <Card className="mt-6">
             <CardContent className="py-10 text-center text-muted-foreground">

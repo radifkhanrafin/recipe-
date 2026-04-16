@@ -3875,7 +3875,7 @@ function RecipeMatch({ query, ingredients: propIngredients, onBack, onViewSaved 
         "RecipeMatch.useEffect": ()=>{
             let results = [];
             // 🔍 1. Recipe name search
-            if (query && query.trim()) {
+            if (typeof query === "string" && query.trim()) {
                 results = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$recipes$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["recipes"].filter({
                     "RecipeMatch.useEffect": (recipe)=>recipe.name.toLowerCase().includes(query.toLowerCase())
                 }["RecipeMatch.useEffect"]);
